@@ -9,6 +9,7 @@ body {
 	width:70%;
 	border: 1px solid black;
 	border-top: 4px solid black;
+	border-bottom: 3px solid black;
 	text-align: center;
 	font-size: 15px;
 }
