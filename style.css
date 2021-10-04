@@ -71,6 +71,7 @@ hr {
 	width: 110px;
 	font-size: 30px;
 	padding: 10px;
+	font-family: monospace;
 	/** border-radius: 5px; **/
 }
 
