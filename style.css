@@ -1,0 +1,99 @@
+body {
+	background-color: lightgrey;
+}
+
+.container {
+	margin: 0 auto;
+	margin-top: 20px;
+	width:70%;
+	border: 1px solid black;
+	border-top: 4px solid black;
+	text-align: center;
+	font-family: monospace;
+	font-size: 15px;
+}
+
+ h2 {
+ 	margin-top: -1px;
+ }
+
+/**
+hr {
+	border: 1px solid black;
+}
+**/
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-container-3 {
+	display: flex;
+	padding: 10px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	border-bottom: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.flex-box-container-1 {
+	border-top: 1px solid black;
+}
+
+.flex-box-container-1, .flex-box-container-2 {
+	background:  url('boards/blackjackboard6.png') center;
+	color: black;
+}
+
+.flex-box-container-1 div {
+	padding: 10px;
+	min-height: 500px;
+	max-height: auto;
+	flex: 1;
+	align-items: center;
+	border: 1px solid black;
+}
+
+.flex-box-container-1 img {
+	width: 20%;
+	padding: 10px;
+}
+
+.gameButtons {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.gameButtons > button {
+	cursor: pointer;
+}
+
+.btn-lg {
+	height: 55px;
+	width: 110px;
+	font-size: 30px;
+	padding: 10px;
+	/** border-radius: 5px; **/
+}
+
+.mr-2 {
+	margin-right: 20px;
+}
+
+.btn-primary {
+	background-color: darkblue;
+	color: black;
+}
+
+.btn-success {
+	background-color: darkgreen;
+	color: black;
+}
+
+.btn-danger {
+	background-color: darkred;
+	color: black;
+}
+
+/** table,**/ th, td {
+	border: 1px solid black;
+	padding: 5px;
+}

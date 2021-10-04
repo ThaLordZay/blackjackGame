@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Blackjack Game</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h2>Play Blackjack <span style="font-size: 30px;">♠️</span><span style="font-size: 38px; color: darkred;">❤️</span><span style="font-size: 30px;">♣️</span><span style="font-size: 30px; color: darkred;">♦️</span> with computer</h2>
+
+			<p>Rule: Anyone who gets the highest number closet to 21 without going over wins the round.<br> NB: Ace counts as 1 or 11. J, Q, K count as 10.</p>
+			<h3 id="gameOn">Let's Play!</h3>
+
+			<div class="flex-box-container-1">
+				<div id="playerSide">
+					<h2>Player: <span id="yourScore" >0</span></h2>
+				</div>
+
+				<div id="dealerSide">
+					<h2>Dealer: <span id="dealerScore" >0</span></h2>
+				</div>
+			</div>
+
+			<div class="flex-box-container-2">
+				<div class="gameButtons">
+					<button class="btn-lg btn-primary mr-2" id="hitButton" >Hit</button>
+					<button class="btn-lg btn-danger mr-2" id="standButton" >Stand</button>
+					<button class="btn-lg btn-success" id="dealButton" >Deal</button>
+				</div>
+			</div>
+
+			<div class="flex-box-container-3">
+				<table>
+					<tr>
+						<th>Wins</th>
+						<th>Losses</th>
+						<th>Draws</th>
+					</tr>
+
+					<tr>
+						<td><span id="wins" >0</span></td>
+						<td id="losses" >0</td>
+						<td id="draws" >0</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
