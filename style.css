@@ -11,8 +11,6 @@ body {
 	border-top: 4px solid black;
 	text-align: center;
 	font-size: 15px;
-	min-height: 100vh;
-	align-items: center;
 }
 
  h2 {
@@ -34,11 +32,6 @@ hr {
 	border-bottom: 1px solid black;
 	padding-top: 10px;
 	padding-bottom: 10px;
-}
-
-.flex-box-container-3 {
-	border-bottom: none;
-	padding-top: 4rem;
 }
 
 .flex-box-container-1 {
