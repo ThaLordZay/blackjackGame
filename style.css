@@ -5,7 +5,7 @@ body {
 
 .container {
 	margin: 0 auto;
-	margin-top: 7vh;
+	margin-top: 6vh;
 	width:70%;
 	border: 1px solid black;
 	border-top: 4px solid black;
@@ -81,7 +81,7 @@ hr {
 }
 
 .btn-primary {
-	background-color: darkblue;
+	background-color: #0066b2;
 	color: black;
 }
 
@@ -98,4 +98,5 @@ hr {
 /** table,**/ th, td {
 	border: 1px solid black;
 	padding: 5px;
+	font-size: 1.7em;
 }
