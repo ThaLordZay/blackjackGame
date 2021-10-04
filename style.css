@@ -1,5 +1,6 @@
 body {
-	background: radial-gradient(#CCFFFF, #99FFFF);
+	background: radial-gradient(#CCFFFF, #99FFFF);	
+	font-family: monospace;
 }
 
 .container {
@@ -9,7 +10,6 @@ body {
 	border: 1px solid black;
 	border-top: 4px solid black;
 	text-align: center;
-	font-family: monospace;
 	font-size: 15px;
 }
 
