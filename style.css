@@ -102,12 +102,13 @@ hr {
 /** table,**/ th, td {
 	border: 1px solid black;
 	padding: 5px;
-	font-size: 1.7em;
+	font-size: 1.5em;
 }
 
 @media only screen and (orientation: portrait) {
 	.container {
 		width: 75%;
+		margin-top: 5px;
 	}
 	.flex-box-container-1 {
 		display: flex;
@@ -119,14 +120,14 @@ hr {
 
 	.flex-box-container-1 div {
 		padding: 10px;
-		min-height: 31vh;
+		min-height: 32vh;
 		max-height: auto;
 		flex: 1;
 		align-items: center;		
 	}
 
 	.flex-box-container-1 img {
-		width: 25%;
+		width: 20%;
 		padding: 10px;
 	}
 }
