@@ -17,8 +17,8 @@ window.onload = function(){
     parent._alert = new parent.Function("alert(arguments[0]);");
 	parent._alert("Rule: Click Hit to pick a card at random, keep clicking till you get a number close to 21 or 21 itself. \n" +
 				"Going over 21 will make you BUST thus losing the round. \n Click Stand when you're done so the bot plays its turn."+ 
-				"The bot's turn is automated, so you can only click Stand once per round. \n Whoever has the highest number wins the round."+ 
-				"Click Deal clear the board for the next round. \n NB: Ace counts as 1 or 11. J, Q, K count as 10.");
+				"The bot's turn is automated, so you can only click Stand once per round. \n Whoever has the highest number wins the round. "+ 
+				"Click Deal to clear the board for the next round. \n NB: Ace counts as 1 or 11. J, Q, K count as 10.");
 }
 
 const YOU = blackjackGame['you'];
