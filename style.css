@@ -108,7 +108,7 @@ hr {
 @media only screen and (orientation: portrait) {
 	.container {
 		width: 75%;
-		margin-top: 5px;
+		margin-top: 2vh;
 	}
 	.flex-box-container-1 {
 		display: flex;
